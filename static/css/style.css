@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    background-color: white;
+    font-family: sans-serif;
+}
+/*header*/
+header{
+    background-color: coral;
+    text-align: center;
+    padding: 20px 0px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+#name{
+    color: purple;
+    font-weight: bold;
+}
+/*navigation*/
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav li{
+    display: inline-block;
+    margin-right: 15px;
+}
+nav a.nav-link{
+    text-decoration: none;
+    color: blue !important;
+    padding: 10px;
+    font-weight: bold;
+}
+nav a:hover{
+    background-color: brown;
+    border-radius: 5px;
+}
+#home,
+#about,
+#services,
+#contact{
+    scroll-margin-top: 140px;
+}
+/*slideshow*/
+#slideshow{
+    background-color: white;
+}
+/*main*/
+main{
+    width: 90%;
+    margin: 30px auto;
+}
+/*section*/
+.mission-btn-wrapper{
+    text-align: center;
+    margin-top: 20px;
+}
+#missionBtn{
+    background-color: purple;
+    color: gold;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+#missionBtn:hover{
+    background-color: brown;
+    transform: scale(1.05);
+}
+#missionContent{
+    display: none;
+    margin-top: 20px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-left: 5px solid purple;
+    border-radius: 5px;
+}
+section{
+    background-color: white;
+    box-shadow: 0px 2px 2px gray;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+#allservices{
+    display: flex;
+    gap: 15px
+}
+.service{
+    flex: 1 1 250px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: lightgrey;
+    text-align: center;
+}
+.service img{
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+}
+h2{
+    color: blue;
+    text-align: center;
+}
+/*form*/
+form{
+    max-width: 800px;
+    margin: 20px auto;
+    border: 1px solid khaki;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px purple;
+    padding: 20px;
+}
+form label{
+    display: flex;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+form input,
+form textarea{
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid khaki;
+    border-radius: 5px;
+}
+form textarea{
+    height: 100px;
+}
+form button{
+    background-color: purple;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    color: gold;
+    font-weight: bold;
+    font-size: 18px;
+}
+/*footer*/
+footer{
+    background-color: gold;
+    padding: 20px;
+    text-align: center;
+}
